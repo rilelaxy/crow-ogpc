@@ -21,11 +21,11 @@ public class BirdController : MonoBehaviour
     void Update()
     {
         float moveInput = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
+        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
 
         if (Input.GetButton("Jump") && !isGrounded)
@@ -44,7 +44,7 @@ public class BirdController : MonoBehaviour
         {
             isGliding = true;
             rb.gravityScale = glideGravity;
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f); // Reduce downward speed
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f); // Reduce downward speed
         }
     }
 
