@@ -16,16 +16,18 @@ public class BirdController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        rb.gravityScale = normalGravity; // Ensure default gravity is set
     }
 
     void Update()
     {
         float moveInput = Input.GetAxis("Horizontal");
-        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+        rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            isGrounded = false; // Prevents double jumps
         }
 
         if (Input.GetButton("Jump") && !isGrounded)
@@ -44,7 +46,7 @@ public class BirdController : MonoBehaviour
         {
             isGliding = true;
             rb.gravityScale = glideGravity;
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f); // Reduce downward speed
+            rb.velocity = new Vector2(rb.velocity.x, Mathf.Max(rb.velocity.y * 0.5f, -2f)); // Limits downward speed
         }
     }
 
@@ -62,7 +64,8 @@ public class BirdController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
-            StopGlide();
+            isGliding = false;
+            rb.gravityScale = normalGravity; // Reset gravity on landing
         }
     }
 
