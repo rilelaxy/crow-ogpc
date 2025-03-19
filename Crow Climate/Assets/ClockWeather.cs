@@ -59,7 +59,7 @@ public class ClockWeather : MonoBehaviour
         // Update the weather 
         if (weatherText != null)
         {
-            weatherText.text = "Weather: " + currentWeather;
+            weatherText.text = currentWeather;
         }
     }
 
