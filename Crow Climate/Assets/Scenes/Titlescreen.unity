@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -308,8 +308,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 513, y: -417.2}
-  m_SizeDelta: {x: 221.3644, y: 80.3503}
+  m_AnchoredPosition: {x: 117, y: -96.4}
+  m_SizeDelta: {x: 69.251, y: 28.3115}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &300697131
 MonoBehaviour:
@@ -441,8 +441,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 38.7, y: -143.8}
-  m_SizeDelta: {x: 276.435, y: 74.0565}
+  m_AnchoredPosition: {x: 6.02, y: -31.8}
+  m_SizeDelta: {x: 95.8962, y: 32.4936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &570412561
 MonoBehaviour:
@@ -786,7 +786,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 800154361}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -797,8 +797,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 241.84999, y: -181.81706}
-  m_SizeDelta: {x: 863.7, y: 196.8341}
+  m_AnchoredPosition: {x: 48.197113, y: -41.894478}
+  m_SizeDelta: {x: 307.5648, y: 19.3367}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &800154363
 MonoBehaviour:
@@ -875,8 +875,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -440.4, y: -413.3}
-  m_SizeDelta: {x: 235.2532, y: 70.586}
+  m_AnchoredPosition: {x: -99.5, y: -96.4}
+  m_SizeDelta: {x: 66.9594, y: 19.7321}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &956263460
 MonoBehaviour:
@@ -1137,15 +1137,15 @@ RectTransform:
   m_GameObject: {fileID: 1014694405}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.27, y: 0.27, z: 0.27}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 742700747}
   m_Father: {fileID: 800154362}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 505, y: 106}
+  m_AnchoredPosition: {x: 164.7, y: 10.9}
   m_SizeDelta: {x: 62.5711, y: 36.5833}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1014694407
@@ -1394,8 +1394,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32.55
-  m_fontSizeBase: 32.55
+  m_fontSize: 8.26
+  m_fontSizeBase: 8.26
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1530,8 +1530,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32.55
-  m_fontSizeBase: 32.55
+  m_fontSize: 8.26
+  m_fontSizeBase: 8.26
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1666,8 +1666,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32.55
-  m_fontSizeBase: 32.55
+  m_fontSize: 8.26
+  m_fontSizeBase: 8.26
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1797,8 +1797,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -387, y: 79}
-  m_SizeDelta: {x: -863.7, y: -196.8341}
+  m_AnchoredPosition: {x: -485, y: -329}
+  m_SizeDelta: {x: -997.281, y: 54.4253}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1966269491
 MonoBehaviour:
@@ -1820,12 +1820,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Riley gregory - tech/design lead
+  m_text: 'Riley  - tech/design lead
 
     Shae - Artist lead
 
-    Minch -
-    Writing lead
+    Minch - Writing
+    lead
 
     Milo - Music producer
 
@@ -1856,8 +1856,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32.55
-  m_fontSizeBase: 32.55
+  m_fontSize: 5.83
+  m_fontSizeBase: 5.83
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1894,7 +1894,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -1.2294618, y: -298.54987, z: -615.4266, w: 311.6889}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
