@@ -13,7 +13,7 @@ public class ClockWeather : MonoBehaviour
     public TextMeshProUGUI weatherText;
 
     // Weather
-    private string[] weatherConditions = { "Sunny", "Rainy", "Cloudy", "Stormy", "Snowy" };
+    private string[] weatherConditions = { "Pouring", "Rainy", "Rainy", "Stormy", "Rainy" };
     private string currentWeather;
 
     // Update interval 

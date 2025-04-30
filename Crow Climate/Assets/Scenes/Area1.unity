@@ -472,7 +472,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: coming soon
+  m_text: Quest menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e65282ffd0f2e924c8f25099c0027db7, type: 2}
   m_sharedMaterial: {fileID: 4641313802464791834, guid: e65282ffd0f2e924c8f25099c0027db7, type: 2}
@@ -1032,8 +1032,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -2.35785, y: -6.1682997, z: 0}
-    m_Extent: {x: 6.30155, y: 9.9948, z: 0}
+    m_Center: {x: -2.358, y: -6.1686497, z: 0}
+    m_Extent: {x: 6.3021, y: 9.99445, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 5.46
@@ -9308,8 +9308,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -2.3580499, y: -6.1679497, z: 0}
-    m_Extent: {x: 6.30125, y: 9.99445, z: 0}
+    m_Center: {x: -2.3583, y: -6.1683497, z: 0}
+    m_Extent: {x: 6.3018, y: 9.99475, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 5.46
